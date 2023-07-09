@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="css/Adi.css"> -->
+<style>
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('training-gb918ee459_1280.jpg')
+  }
+
+  .left {
+    line-height: 19px;
+    font-size: 18px display:inline-block;
+    /* border: 2px solid rgb(191, 48, 62); */
+    position: absolute;
+    left: 60px;
+    top: 5px;
+
+  }
+
+  .left img {
+    width: 100px;
+    filter: invert(100%);
+
+  }
+
+  .left div {
+    text-align: center;
+  }
+
+  .mid {
+    display: block;
+    width: 50%;
+    margin: 5px auto;
+    /* border: 2px solid green; */
+
+  }
+
+  .right {
+    display: inline-block;
+    /* border: 2px solid rgb(195, 213, 58); */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .navbar li a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: rgb(188, 18, 171);
+  }
+
+  .btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 2px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(31, 30, 30);
+  }
+
+  .container {
+    border: 2px solid rgb(253, 255, 253);
+    margin: 106px 350px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    font-size: 13px;
+  }
+
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 448px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai', cursive;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container button {
+    display: block;
+    width: 108%;
+    margin: 20px 2px;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <!--- left box for logo-->
+    <div class="left">
+      <img src="physiotherapy-g2b80de377_1280.jpg" alt="">
+      <div> OXYGEN PRO FITNESS</div>
+    </div>
+    <!-- mid box  for navbar -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness calculator</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+      <button class="btn">Call us now</button>
+      <button class="btn">Email us</button>
+
+    </div>
+  </header>
+  <div class="container">
+    <h1>Join the best gym of Kolkata now</h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Locality">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Phone Number">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Email-ID">
+      </div>
+      <button class="btn">submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
